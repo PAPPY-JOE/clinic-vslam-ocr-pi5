@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+venv/
+*.log
+
+# SLAM / Datasets / Plots
+datasets/
+Plots/*
+!Plots/final/ # Ignore all Plots except final
+*.png
+*.pdf
+*.zip
+
+# Calibration and build artifacts
+*.yaml
+build/
+*.bin
+*.out
+*.jpg
+*.png
+
+# VS Code or IDEs
+.vscode/
+.idea/
+
+# General
+*.swp
