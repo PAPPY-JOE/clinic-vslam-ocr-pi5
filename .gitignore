@@ -30,4 +30,6 @@ build/
 # General
 *.swp
 video2calibration/
-ORB_SLAM2-master
+ORB_SLAM2-master/
+opencv/
+former_codes/wsl
