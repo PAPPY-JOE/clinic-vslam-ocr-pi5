@@ -53,33 +53,6 @@ def align(ref_data, tgt_data, max_time_diff):
             aligned_tgt.append((tgt_data[idx][0], tgt_data[idx][1]))
     return aligned_ref, aligned_tgt
 
-# def search_offset(ref_data, target_data, max_diff, offset_range, step):
-#     best_count = 0
-#     best_offset = 0
-#     best_ref = []
-#     best_tgt = []
-#     offsets = []
-#     counts = []
-
-#     ref_times = [t for t, _ in ref_data]
-
-#     for offset in np.arange(offset_range[0], offset_range[1] + step, step):
-#         shifted_target = [(t + offset, pose) for t, pose in target_data]
-#         interpolated = interpolate_trajectory(shifted_target, ref_times)
-#         aligned_ref, aligned_tgt = align(ref_data, interpolated, max_diff)
-
-#         count = len(aligned_ref)
-#         offsets.append(offset)
-#         counts.append(count)
-
-#         if count > best_count:
-#             best_count = count
-#             best_offset = offset
-#             best_ref = aligned_ref
-#             best_tgt = aligned_tgt
-
-#     return best_offset, best_count, best_ref, best_tgt, offsets, counts
-
 def search_offset(ref_data, target_data, max_diff, offset_range, step):
     best_count = 0
     best_offset = 0
