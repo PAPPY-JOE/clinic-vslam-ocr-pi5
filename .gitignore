@@ -10,7 +10,7 @@ venv/
 # SLAM / Datasets / Plots
 datasets/
 # Plots/*
-# !Plots/final/ # Ignore all Plots except final
+!Plots/final/ # Ignore all Plots except final
 *.png
 *.pdf
 *.zip
