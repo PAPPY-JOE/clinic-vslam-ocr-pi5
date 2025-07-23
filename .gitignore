@@ -9,19 +9,12 @@ venv/
 
 # SLAM / Datasets / Plots
 datasets/
-# Plots/*
-!Plots/final/* # Ignore all Plots except final
-*.png
-*.pdf
 *.zip
 
 # Calibration and build artifacts
-*.yaml
 build/
 *.bin
-*.out
-*.jpg
-*.png
+*.out 
 
 # VS Code or IDEs
 .vscode/
@@ -33,3 +26,4 @@ video2calibration/
 ORB_SLAM2-master/
 opencv/
 former_codes/wsl
+ORB_SLAM3/Vocabulary/ORBvoc.txt
