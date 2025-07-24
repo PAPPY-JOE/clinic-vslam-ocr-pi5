@@ -1,3 +1,0 @@
-/workspace/orbslam3_ws/Thirdparty/DBoW2/lib/CMakeFiles/rebuild_cache.dir
-/workspace/orbslam3_ws/Thirdparty/DBoW2/lib/CMakeFiles/edit_cache.dir
-/workspace/orbslam3_ws/Thirdparty/DBoW2/lib/CMakeFiles/DBoW2.dir

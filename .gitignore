@@ -7,10 +7,6 @@ __pycache__/
 venv/
 *.log
 
-# SLAM / Datasets / Plots
-datasets/
-*.zip
-
 # Calibration and build artifacts
 build/
 *.bin
@@ -24,6 +20,20 @@ build/
 *.swp
 video2calibration/
 ORB_SLAM2-master/
+ORB_SLAM3-old/
 opencv/
 former_codes/wsl
-ORB_SLAM3/Vocabulary/ORBvoc.txt
+
+
+# SLAM / Datasets / Plots
+datasets/
+*.zip
+
+# Ignore everything in ORB_SLAM3
+ORB_SLAM3/*
+
+# But NOT these:
+!ORB_SLAM3/CMakeLists.txt
+!ORB_SLAM3/Examples/
+!ORB_SLAM3/Examples/Monocular/
+!ORB_SLAM3/Examples/Monocular/mono_webcam.cc
