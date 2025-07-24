@@ -12,7 +12,10 @@ The system's pipeline is capable of operating offline and provides timestamped l
 
 ## 1. Overview
 
-![Visual SLAM with OCR in action](Assets/demo.jpg)
+<p>
+  <img src="Assets/demo.jpg" alt="System demo" width="500"/>
+</p>
+
 *Figure 1: System overview – combining SLAM, OCR, and semantic labeling on Raspberry Pi 5.*
 
 * **Platform**: Raspberry Pi 5
@@ -23,7 +26,11 @@ The system's pipeline is capable of operating offline and provides timestamped l
 * **Semantic Logging**: Labels + 4x4 camera poses
 * **Evaluation**: Performed using `evo_traj`, `evo_ape`, and trajectory overlays
 
-![Visual SLAM with OCR in action](Assets/robot.jpg)
+<p>
+  <img src="Assets/robot.jpg" alt="robot" width="500"/>
+  <img src="Assets/robot_2.jpg" alt="robot" height="375"/>
+</p>
+
 *Figure 2: Assembled Robot (Grace).*
 
 ## 2. Project Structure
@@ -102,20 +109,25 @@ matplotlib
 
 ## 6. Evaluation & Results
 
-![Trajectory comparison using evo\_traj](Assets/APE%20wrt%20translation%20part%20with%20Umeyama%20alignment.jpg)
+* **Trajectory Evaluation** using `evo_traj` and `evo_ape` `(see plot_traj.sh)`
+<p>
+  <img src="Assets/APE%20wrt%20translation%20part%20with%20Umeyama%20alignment.jpg" alt="Trajectory comparison using evo\_traj" width="500"/>
+</p>
+
 *Figure 3: APE trajectory comparison between ground truth and SLAM-estimated path.*
 
-![OCR-based semantic labels](Assets/stats.jpg)
-*Figure 4: APE Metrics*
-
-* **Trajectory Evaluation** using `evo_traj` and `evo_ape` `(see plot_traj.sh)`
 * **APE Metrics** from synthetic timestamp matching `(see code/matcher.py)`:
 
   * **RMSE**: 0.282 m
   * **Mean**: 0.174 m
   * **Max**: 2.20 m
-* **3D Trajectory plots** with semantic overlays
 * Evaluation logs and plots saved in `Plots/`
+
+<p>
+  <img src="Assets/stats.jpg" alt="OCR-based semantic labels" width="500"/>
+</p>
+
+*Figure 4: APE Metrics*
 
 ## 7. Datasets and Maps
 
