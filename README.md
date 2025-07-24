@@ -153,15 +153,16 @@ This project explores the fusion of low-cost SLAM and OCR to add **semantic cont
 
 This project was developed by a team of three 500 Level Mechatronics Engineering students from **Bowen University**, under the supervision of:
 
-> **Dr. Segun Adebayo** </br>
+> **[Dr. Segun Adebayo](https://www.linkedin.com/in/segun-adebayo-088b17141/)** </br>
 > Department of Mechatronics Engineering </br>
 > Bowen University, Iwo, Osun State, Nigeria
 
-### Contributors:
+### Contributors
 
-* **Joseph Fatoye** - Project lead 
-* **Laide-Muibi Ayomiposi**
-* **Bassey Joshua**
+* **[Joseph Fatoye](https://www.linkedin.com/in/josephfatoye/)** – Project Lead
+* **[Laide-Muibi Ayomiposi](https://www.linkedin.com/in/ayomiposi-laide-muibi-74446a224/)**
+* **[Bassey Joshua](https://www.linkedin.com/in/joshua-bassey-389021212/)**
+
 
 We are deeply grateful to our supervisor, mentors, and the Bowen University Mechatronics department for their support and academic resources. Special thanks to the open-source community—particularly **UZ-SLAMLab**, **JaidedAI**, and contributors to **OpenCV**, **Flask**, and the **evo** toolkit—for enabling this project.
 
